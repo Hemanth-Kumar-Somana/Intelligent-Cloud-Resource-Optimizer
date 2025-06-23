@@ -1,0 +1,46 @@
+Setting up your Virtual Environment (.venv)
+A virtual environment is highly recommended for Python projects. It isolates your project's dependencies from your system's global Python packages, preventing conflicts and making your project more portable.
+
+Follow these steps in your terminal, from your project's root directory (intelligent-cloud-resource-optimizer/):
+
+Create the Virtual Environment:
+This command will create a new directory named .venv in your current project folder.
+
+Bash
+
+python -m venv .venv
+Activate the Virtual Environment:
+After creation, you need to activate it. This modifies your shell's PATH so that when you run python or pip, you're using the versions within your .venv, not your system's global ones.
+
+On macOS / Linux:
+
+Bash
+
+source .venv/bin/activate
+On Windows (using Command Prompt):
+
+DOS
+
+.venv\Scripts\activate.bat
+On Windows (using PowerShell):
+
+PowerShell
+
+.venv\Scripts\Activate.ps1
+You'll usually see the name of your virtual environment (e.g., (.venv)) at the beginning of your terminal prompt once it's activated, indicating that you're operating within it.
+
+Install Dependencies:
+Once activated, you can install your project's dependencies (from your requirements.txt file) into this isolated environment:
+
+Bash
+
+pip install -r requirements.txt
+Add to .gitignore:
+Crucially, you should add .venv/ to your project's .gitignore file. This prevents the large virtual environment directory and its contents from being committed to your Git repository, keeping your repository clean and lightweight.
+
+Your .gitignore file should look something like this:
+
+.venv/
+__pycache__/
+.env
+*.pyc
