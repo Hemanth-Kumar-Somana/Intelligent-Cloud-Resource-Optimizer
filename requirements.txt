@@ -1,0 +1,8 @@
+google-adk
+google-cloud-monitoring
+google-cloud-billing # If you directly integrate with the Billing API
+google-cloud-compute # If you need specific Compute Engine APIs
+google-cloud-storage # If you need specific Cloud Storage APIs
+google-cloud-aiplatform # Required for Vertex AI (Gemini)
+pandas # Recommended for data analysis within your Analysis Agent
+# Add any other libraries your project uses
