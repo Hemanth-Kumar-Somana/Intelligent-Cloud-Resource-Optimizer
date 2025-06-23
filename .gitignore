@@ -1,0 +1,16 @@
+# Python virtual environment directory
+.venv/
+
+# Byte-code files (compiled Python files)
+__pycache__/
+*.pyc
+
+# Environment variables file - CRITICAL: DO NOT COMMIT SENSITIVE INFO
+.env
+
+# Jupyter Notebook files (if you use them for prototyping/analysis)
+.ipynb_checkpoints/
+
+# Operating System specific files
+.DS_Store # macOS
+Thumbs.db # Windows
