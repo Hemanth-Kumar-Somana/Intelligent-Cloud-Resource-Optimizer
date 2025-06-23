@@ -6,3 +6,24 @@ google-cloud-storage # If you need specific Cloud Storage APIs
 google-cloud-aiplatform # Required for Vertex AI (Gemini)
 pandas # Recommended for data analysis within your Analysis Agent
 # Add any other libraries your project uses
+Required VS Code Extensions
+Install these from the VS Code Extensions Marketplace (Ctrl+Shift+X):
+
+🔹 1. Python
+📦 Extension ID: ms-python.python
+
+✅ Enables Python language features, syntax highlighting, linting, debugging, and Jupyter support.
+
+🔹 2. Pylance
+📦 Extension ID: ms-python.vscode-pylance
+
+✅ Provides fast and feature-rich Python language support (auto-imports, IntelliSense, etc.).
+
+🔹 3. dotenv
+📦 Extension ID: mikestead.dotenv
+
+✅ Syntax highlighting for .env files, which are used to store your API keys and environment variables.
+
+🔹 4. ZMQ Support (Optional but helpful)
+📦 Extension: No dedicated VS Code extension, but useful for those inspecting ZeroMQ communication. Instead, you can use logging or external tools like Wireshark or CLI-based zmq monitor.
+
